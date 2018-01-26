@@ -2,7 +2,7 @@ require_relative './spec_helper.rb'
 spec/fizzbuzz_spec.rb
 
 def fizzbuzz(x)
-  iif x % 15 == 0
+  if x % 15 == 0
    "Fizzbuzz"
 elsif x % 3 == 0
    "Fizz"
@@ -11,4 +11,3 @@ elsif x % 5 == 0
 else
   "nil"
 end
-
